@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Molnar</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="menu__container">
+            <div class="icon__container">
+                <img class="menu__icon" src="./assets/images/icon.png" alt="Planeta tridimensional colorido em degradê">
+                <p class="menu__name">Rafael Molnar</p>
+            </div>
+            <nav>
+                <ul class="menu__nav">
+                    <li><a class="menu__nav__link" href="">Home</a></li>
+                    <li><a class="menu__nav__link" href="#about">Sobre</a></li>
+                    <li><a class="menu__nav__link" href="#skills">Habilidades</a></li>
+                    <li><a class="menu__nav__link" href="#projects">Projetos</a></li>
+                    <li><a class="menu__nav__link" href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <aside>
+            <button onclick="upScroll()" class="button__nav"><img class="button__nav__image"
+                    src="./assets/images/arrow.png" alt="seta para cima"></button>
+        </aside>
+        <section class="banner">
+            <div class="banner__container">
+                <h1 class="banner__title">Rafael Molnar Rocha</h1>
+                <p class="banner__description">Desenvolvedor Front-end</p>
+                <p class="banner__technology">HTML5 | CSS3 | JavaScript | ReactJS</p>
+                <button class="button__principal">Currículo</button>
+            </div>
+            <img class="banner__picture" src="./assets/images/rafael.jpg" alt="Foto Rafael Molnar">
+        </section>
+        <section class="apresentation">
+            <p class="apresentation__text">Olá! Sou <span>Rafael Molnar</span> e dou as boas-vindas ao meu portfólio</p>
+            <p class="apresentation__text">Aperte o cinto, sirva-se com uma boa xícara de café e embarque comigo nessa
+                aventura que carinhosamente apelidei de:
+            <p class="apresentation__special">"Conhecendo o novo desenvolvedor frontend que irá trabalhar em sua
+                empresa"</p>
+            </p>
+        </section>
+        <section class="about">
+            <h2 class="about__title" id="about">Quem é o Rafael Molnar?</h2>
+            <div class="about__text__container">
+                <p class="about__text">Nascido em Belo Horizonte/MG no dia 12/07/1994, Rafael Molnar Rocha, o herói de
+                    nossa jornada,
+                    sempre
+                    gostou e demonstrou aptidão no estudo e aprendizado de matemática além de grande interesse por
+                    tecnologia e livros de fantasia/ficção científica.</p>
+                <p class="about__text">Muito devido a seu gosto pelas Exatas, após conseguir se destacar como aluno
+                    pelas escolas em que
+                    estudou, realizar um bom estágio na área de iniciação científica pela UFMG e estagiar também na
+                    Caixa Econômica Federal, Rafael ao formar-se no ensino médio optou em cursar Engenharia Civil
+                    pela
+                    respeitável instituição de ensino UNA.</p>
+                <p class="about__text">No mesmo ano Molnar começou a
+                    lecionar aulas particulares de matemática para ajudar a patrocinar seus estudos, tendo
+                    conseguido
+                    alunos tanto de nível escolar médio quanto superior. Porém após o avanço de uma crise
+                    financeira que modificou o cenário econômico do país, Rafael decidiu
+                    concentrar seus esforços em continuar lecionando as aulas particulares e estudar para concursos
+                    públicos afim de conseguir uma maior estabilidade econômica.</p>
+                <p class="about__text">Foi em 2019 que conseguiu seu objetivo, aprovado em um concurso público de
+                    nível Estadual, e sempre em busca de se autoaprimorar também começou seus
+                    estudos no aprendizado da língua inglesa. Mais recentemente, determinado a seguir seu sonho de
+                    atuar dentro da área de tecnologia, dedica-se em estudar as tecnologias HTML, CSS, JavaScript e
+                    ReactJS.
+                </p>
+                <p class="about__text">Hoje, Rafael Molnar Rocha, se apresenta como candidato a vagas na área de
+                    desenvolvimento
+                    frontend e
+                    conta com você, é isso ai, você mesmo, para auxilia-lo na realização desse sonho, seja
+                    propiciando a
+                    ele uma oportunidade de trabalho ou feedbacks para que nosso herói possa com muita determinação
+                    continuar se aprimorando pessoal e profissionalmente. </p>
+            </div>
+            <section class="resume">
+                <div class="resume__container">
+                    <div class="resume__content">
+                        <img class="resume__image" src="./assets/images/icon-adaptable.png" alt="">
+                        <h2>Adaptável</h2>
+                        <p class="resume__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Doloribus eius accusamus tempore. Earum dolorum repellat necessitatibus molestiae explicabo
+                            aspernatur, nam nostrum possimus consequuntur? Placeat, fugiat repudiandae. Saepe iure
+                            libero quod.</p>
+                    </div>
+                    <div class="resume__content">
+                        <img class="resume__image" src="./assets/images/icon-book.png" alt="">
+                        <h2>Autoaperfeiçoamento</h2>
+                        <p class="resume__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
+                            sit consectetur fugiat cupiditate! Nam, dolorum amet iusto hic, illo facere quod error
+                            accusantium necessitatibus ut sit molestias at distinctio esse?</p>
+                    </div>
+                    <div class="resume__content">
+                        <img class="resume__image" src="./assets/images/icon-gear.png" alt="">
+                        <h2>Padronização</h2>
+                        <p class="resume__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                            dolorum praesentium maiores molestias dicta quis architecto. Quasi repellendus modi error,
+                            necessitatibus qui vitae dolorum nihil iusto tempore, quis veritatis magnam!</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="skills">
+            <h2 class="skills__title" id="skills">Habilidades profissionais</h2>
+            <div class="skills__container">
+                <p class="skills__name">HTML5</p>
+                <p class="skills__name">CSS3</p>
+                <p class="skills__name">JavaScript</p>
+                <p class="skills__name">ReactJS</p>
+                <p class="skills__name">Git</p>
+                <p class="skills__name">Trabalho em equipe</p>
+                <p class="skills__name">Aprendizagem rápida</p>
+                <p class="skills__name">Inglês intermediário</p>
+                <p class="skills__name">Empatia</p>
+                <p class="skills__name">Comunicação</p>
+            </div>
+        </section>
+        <section class="certificate">
+            <div class="certificate__container">
+                <div class="button__certificate__container">
+                    <a class="button__certificate button__certificate__left" href=""><img
+                            class="button__certificate__image" src="./assets/images/arrow-blue.png" alt=""></a>
+                </div>
+                <img class="certificate__image" src="./assets/images/certificates/scrum.jpg" alt="">
+                <div class="button__certificate__container">
+                    <a class="button__certificate button__certificate__right" href=""><img
+                            class="button__certificate__image" src="./assets/images/arrow-blue.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <h2 class="projects__title" id="projects">Projetos realizados</h2>
+            <div class="projects__container">
+                <ul class="projects__list">
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                    <li>
+                        <img class="projects__pictures" src="./assets/images/banner-2.png" alt="">
+                        <h3>Nome Projeto</h3>
+                        <p>Descrição projeto</p>
+                        <p>Tecnologia</p>
+                    </li>
+                </ul>
+                <button class="button__principal">Mais projetos</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div>
+                <h2 class="footer__title">Direitos autorais</h2>
+                <div class="footer__links">
+                    <a href="">Criado por Rafael Molnar</a>
+                    <a href="">Termos de uso</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer__title">Mapa do site</h2>
+                <div class="footer__links">
+                    <a href="">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer__title" id="contact">Contato</h2>
+                <div class="contact__container">
+                    <div class="contact__container__content">
+                        <div class="contact__icon__container">
+                            <img class="contact__icon" src="./assets/images/icon-phone2.png" alt="">
+                            <h3>Telefone:</h3>
+                        </div>
+                        <a href="">+55 (31) 99320-1670</a>
+                    </div>
+                    <div>
+                        <div class="contact__icon__container">
+                            <img class="contact__icon " src="./assets/images/icon-email.png" alt="">
+                            <h3>Email:</h3>
+                        </div>
+                        <a href=""> rafaelmolnar.r@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="footer__title">Redes sociais</h2>
+                <div class="social__container">
+                    <a href=""> <img class="social__icon" src="./assets/images/icon-github.png" alt="Ícone github"></a>
+                    <a href=""><img class="social__icon" src="./assets/images/icon-linkedin.png"
+                            alt="Ícone linkedin"></a>
+                    <a href=""><img class="social__icon" src="./assets/images/icon-instagram.png"
+                            alt="Ícone instagram"></a>
+                    <a href=""><img class="social__icon" src="./assets/images/icon-facebook.png"
+                            alt="Ícone facebook"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
